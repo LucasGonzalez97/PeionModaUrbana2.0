@@ -31,6 +31,9 @@ body {
     -webkit-transform: scale(0.9);
     transform: scale(0.9rem); }
 
+.navbar-toggler {
+  background: #9DFF10; }
+
 /*ESTILOS DEL FOOTER*/
 footer {
   width: 100%;
