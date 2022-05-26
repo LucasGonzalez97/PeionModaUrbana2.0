@@ -30,16 +30,21 @@
     grid-area: btn;
     font-size: 25px; }
 
+/*ESTILOS DE NOSOTROS*/
 p {
-  color: whitesmoke; }
+  color: whitesmoke;
+  text-align: center; }
 
 h1 {
-  color: #9DFF10; }
+  margin-top: 100px;
+  color: #9DFF10;
+  text-align: center; }
 
 .img-p {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  margin: 10px; }
+  justify-content: center; }
   .img-p img {
     width: 180px; }
 
