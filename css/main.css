@@ -14,7 +14,7 @@
   .contact-form h4 {
     grid-area: h4;
     font-size: 30px;
-    color: #9DFF10;
+    color: #9BCB3C;
     display: flex;
     justify-content: center; }
   .contact-form .text-nombre {
@@ -37,7 +37,7 @@ p {
 
 h1 {
   margin-top: 100px;
-  color: #9DFF10;
+  color: #9BCB3C;
   text-align: center; }
 
 .img-p {
@@ -46,7 +46,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: center; }
   .img-p img {
-    width: 180px; }
+    width: 180px;
+    margin: 4px; }
 
 /*RESET*/
 * {
@@ -63,8 +64,8 @@ body {
   margin: 10px; }
 
 .nav-link:hover {
-  border-top: #9DFF10 solid 1px;
-  border-bottom: #9DFF10 solid 1px; }
+  border-top: #9BCB3C solid 1px;
+  border-bottom: #9BCB3C solid 1px; }
 
 /*ESTILOS DEL MAIN*/
 .imagen-padre {
@@ -90,7 +91,7 @@ body {
     transform: scale(0.9rem); }
 
 .navbar-toggler {
-  background: #9DFF10; }
+  background: #9BCB3C; }
 
 /*ESTILOS DEL FOOTER*/
 footer {
@@ -100,8 +101,8 @@ footer {
   footer h3 {
     text-align: center;
     font-size: 0.6rem;
-    color: #9DFF10; }
+    color: #9BCB3C; }
   footer h4 {
     text-align: center;
     font-size: 0.5rem;
-    color: #9DFF10; }
+    color: #9BCB3C; }
