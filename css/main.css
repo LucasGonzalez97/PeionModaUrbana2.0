@@ -14,9 +14,7 @@
   .contact-form h4 {
     grid-area: h4;
     font-size: 30px;
-    color: #9BCB3C;
-    display: flex;
-    justify-content: center; }
+    color: #9BCB3C; }
   .contact-form .text-nombre {
     grid-area: n;
     font-size: 25px; }

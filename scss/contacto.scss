@@ -24,8 +24,6 @@
         grid-area: h4;
         font-size: 30px;
         color: $color-primario;
-        display: flex;
-        justify-content: center;
     }
     .text-nombre{
         grid-area: n;
@@ -44,6 +42,10 @@
     .btn-submit{
         grid-area: btn;
         font-size: 25px;
+    }
+    .form{
+        
+        
     }
     
 
