@@ -1,3 +1,48 @@
+/*ESTILOS DE CONTACTO*/
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+
+.contact-form {
+  margin-top: 60px;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-template-areas: "h4 h4 h4 h4 h4" "n n n n n" "e e e e e" "text text text text text" "btn btn btn btn btn"; }
+  .contact-form h4 {
+    grid-area: h4;
+    font-size: 30px;
+    color: #9DFF10;
+    display: flex;
+    justify-content: center; }
+  .contact-form .text-nombre {
+    grid-area: n;
+    font-size: 25px; }
+  .contact-form .text-email {
+    grid-area: e;
+    font-size: 25px; }
+  .contact-form .text-text {
+    grid-area: text;
+    font-size: 30.2px; }
+  .contact-form .btn-submit {
+    grid-area: btn;
+    font-size: 25px; }
+
+p {
+  color: whitesmoke; }
+
+h1 {
+  color: #9DFF10; }
+
+.img-p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .img-p img {
+    width: 180px; }
+
 /*RESET*/
 * {
   margin: 0;
@@ -6,7 +51,15 @@
 
 /*ESTILOS DEL BODY*/
 body {
-  background-color: black; }
+  background-color: #212529; }
+
+/*ESTILOS DEL NAV*/
+.nav-link {
+  margin: 10px; }
+
+.nav-link:hover {
+  border-top: #9DFF10 solid 1px;
+  border-bottom: #9DFF10 solid 1px; }
 
 /*ESTILOS DEL MAIN*/
 .imagen-padre {

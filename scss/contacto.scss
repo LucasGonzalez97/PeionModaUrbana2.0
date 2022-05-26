@@ -1,0 +1,52 @@
+@import "scss/utilities";
+
+/*ESTILOS DE CONTACTO*/
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.contact-form{
+    margin-top: 60px;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-areas: "h4 h4 h4 h4 h4"
+                         "n n n n n"
+                         "e e e e e"
+                         "text text text text text"
+                         "btn btn btn btn btn";
+                    
+    h4{
+        grid-area: h4;
+        font-size: 30px;
+        color: $color-primario;
+        display: flex;
+        justify-content: center;
+    }
+    .text-nombre{
+        grid-area: n;
+        font-size: 25px;
+    }
+    .text-email{
+        grid-area: e;
+        font-size: 25px;
+        
+    }
+    .text-text{
+        grid-area: text;
+        font-size: 30.2px;
+        
+    }
+    .btn-submit{
+        grid-area: btn;
+        font-size: 25px;
+    }
+    
+
+}
+
+

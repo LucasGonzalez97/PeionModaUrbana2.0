@@ -1,3 +1,9 @@
+//VARIABLES DE PAGINAS//
+@import "scss/contacto";
+@import "scss/utilities";
+@import "scss/nosotros";
+@import "scss/remeras";
+
 /*RESET*/
 * {
     margin: 0;
@@ -7,9 +13,16 @@
 
 /*ESTILOS DEL BODY*/
 body {
-    background-color: black;
+    background-color: #212529;
 }
-
+/*ESTILOS DEL NAV*/
+.nav-link{
+    margin: 10px;
+}
+.nav-link:hover{
+    border-top: $color-primario solid 1px;
+    border-bottom: $color-primario solid 1px;
+}
 /*ESTILOS DEL MAIN*/
 .imagen-padre {
     object-fit: cover;
@@ -41,7 +54,7 @@ body {
     }
 }
 .navbar-toggler{
-    background: #9DFF10;
+    background: $color-primario;
 }
 
 /*ESTILOS DEL FOOTER*/
@@ -52,11 +65,11 @@ footer{
     h3{
         text-align: center;
         font-size: 0.6rem;
-        color: #9DFF10;
+        color: $color-primario;
     }
     h4{
         text-align: center;
         font-size: 0.5rem;
-        color: #9DFF10;
+        color: $color-primario;
     }
 }
