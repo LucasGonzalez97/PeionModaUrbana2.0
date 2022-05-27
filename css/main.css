@@ -38,14 +38,27 @@ h1 {
   color: #9BCB3C;
   text-align: center; }
 
-.img-p {
-  margin-top: 50px;
+.containerBox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
-  .img-p img {
-    width: 180px;
-    margin: 4px; }
+  justify-content: space-evenly; }
+  .containerBox .boxDestacados {
+    text-align: center;
+    /*padding: 10%;
+        width: 130px;*/ }
+  .containerBox .boxDestacados img {
+    width: 9rem;
+    height: 12rem; }
+  .containerBox .textBox {
+    border: 1px solid black;
+    width: 9rem;
+    height: 12rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
 
 /*RESET*/
 * {

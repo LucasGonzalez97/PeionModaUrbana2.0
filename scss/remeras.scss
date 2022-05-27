@@ -1,10 +1,27 @@
-.img-p{
-    margin-top: 50px;
+.containerBox{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    img{
-        width: 180px;
-        margin: 4px;
+    justify-content: space-evenly;
+    .boxDestacados{
+        text-align: center;
+        /*padding: 10%;
+        width: 130px;*/
+    }
+    .boxDestacados form input{
+    }
+    .boxDestacados img{
+        width: 9rem;
+        height: 12rem;
+    }
+    .textBox{
+        border: 1px solid black;
+        width: 9rem;
+        height: 12rem;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 }
