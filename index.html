@@ -9,6 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <!-- LINK DE GOOGLEFONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+
     <!-- link de css -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -16,57 +21,96 @@
 </head>
 
 <body>
-    <header class="">
-        <nav class="navbar navbar-expand-md bg-dark text-center">
-            <div class="container">
-                <a class="img-fluid" href="index.html"><img src="img/logiiiito.png" alt="logo" width="200px" height="150px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu bg-dark text-white text-center" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-secondary" href="pages/remeras.html">Remeras</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Pantalones</a></li>
-                                <li><a class="dropdown-item text-secondary" href="#">Buzos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="pages/nosotros.html">Nosotros</a>
-                        </li>
+    <header class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-md bg-dark text-center">
+                <div class="container">
+                    <a class="img-fluid" href="index.html"><img src="img/imagensitadelindexito.png" alt="logo"
+                            width="250px" height="150px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu bg-dark text-white text-center"
+                                    aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-secondary" href="pages/remeras.html">Remeras</a>
+                                    </li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Pantalones</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Buzos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="pages/nosotros.html">Nosotros</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success bg-dark text-white border-white" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
+        </div>
         </nav>
-
 
     </header>
     <main>
-        
-        <div class="imagen-padre">
-            <img class="foto-index" src="img/PEION-4.png" alt="ropero">
+
+
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel center-align">
+                        <div class="carousel-item active">
+                            <img src="img/How To Wear A Sweater Over A Dress - Until The Very Trend.jpg"
+                                class="mx-auto d-block w-100" alt="foto remera" width="600px" height="800px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Blanca Padilla Poses in Eclectic Styles for Vogue Taiwan.jpg"
+                                class="mx-auto d-block w-100" alt="foto remera" width="600px" height="800px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Eclectic Autumn uniform - polienne.jpg" class="mx-auto d-block w-100"
+                                alt="foto remera" width="600px" height="800px">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="contact-ig-wpp">
+                <a href="https://www.instagram.com/peionmodaurbana/?hl=es" target="_blank">
+                    <img class="ig" src="img/fotoig.png" alt="instagram link">
+                </a>
+                <a href="https://wa.me/2236329501" target="_blank">
+                    <img class="wpp" src="img/wppimg.png" alt="wpp link">
+                </a>
+            </div>
         </div>
-        <div class="contact-ig-wpp"> 
-            <img class="ig" src="img/fotoig.png" alt="instagram link">
-            <img class="wpp" src="img/wppimg.png" alt="wpp link">
         </div>
     </main>
 
