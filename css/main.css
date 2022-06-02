@@ -45,9 +45,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly; }
   .containerBox .boxDestacados {
-    text-align: center;
-    /*padding: 10%;
-        width: 130px;*/ }
+    text-align: center; }
   .containerBox .boxDestacados img {
     width: 9rem;
     height: 12rem; }
@@ -100,20 +98,46 @@ h1 {
 
 /*MEDIA QUERY 1024*/
 @media screen and (min-width: 1024px) {
+  .containerBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .containerBox .boxDestacados {
+      text-align: center; }
+    .containerBox .boxDestacados img {
+      width: 15rem;
+      height: 12rem; }
+    .containerBox .textBox {
+      border: 2px solid black;
+      width: 15rem;
+      height: 12rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+    .containerBox input {
+      background-color: #ffd900; }
+    .containerBox option {
+      color: #ffd900;
+      background-color: black; }
+    .containerBox select {
+      color: #ffd900;
+      background-color: black; }
   .containerBoxin {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
     .containerBoxin .boxDestacadoos {
-      text-align: center; }
-    .containerBoxin .boxDestacadoos {
+      text-align: center;
       margin: 60px; }
     .containerBoxin .boxDestacadoos img {
-      width: 9rem;
+      width: 15rem;
       height: 12rem; }
     .containerBoxin .textBox {
       border: 2px solid black;
-      width: 9rem;
+      width: 15rem;
       height: 12rem;
       background-color: black;
       color: white;
@@ -175,11 +199,9 @@ body {
   background: #D7A35F; }
 
 /*ESTILOS DEL CARROUSEL*/
-.text-rebajas p {
-  margin-top: 100px;
-  font-size: 3rem;
-  font-family: 'Blaka', cursive;
-  color: #ffea00; }
+.h1 {
+  color: white;
+  font-size: 2rem; }
 
 /*ESTILOS DEL FOOTER*/
 footer {
