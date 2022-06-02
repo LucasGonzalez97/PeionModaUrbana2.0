@@ -9,46 +9,33 @@
     
 }
 .contact-form{
-    margin-top: 60px;
-    display: grid;
-    justify-self: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
-    grid-template-areas: "h4 h4 h4 h4 h4"
-                         "n n n n n"
-                         "e e e e e"
-                         "text text text text text"
-                         "btn btn btn btn btn";
-                    
+    background-color: rgb(66, 69, 30);
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 4px;
     h4{
-        grid-area: h4;
+        color: white;
+        text-align: center;
+    }
+    .controls{
+        width: 100%;
+        background-color: $color-secundario;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    .controls1{
+        width: 100%;
+        background-color: $color-secundario;
+        border-radius: 4px;
         font-size: 30px;
-        color: $color-primario;
     }
-    .text-nombre{
-        grid-area: n;
-        font-size: 25px;
+    .botons{
+        border: none;
+        width: 100%;
+        padding: 5px 0px;
+        background-color: $color-secundario;
     }
-    .text-email{
-        grid-area: e;
-        font-size: 25px;
-        
-    }
-    .text-text{
-        grid-area: text;
-        font-size: 30.2px;
-        
-    }
-    .btn-submit{
-        grid-area: btn;
-        font-size: 25px;
-    }
-    .form{
-        
-        
-    }
-    
-
 }
 
 

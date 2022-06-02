@@ -5,28 +5,29 @@
   margin: 30px; }
 
 .contact-form {
-  margin-top: 60px;
-  display: grid;
-  justify-self: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
-  grid-template-areas: "h4 h4 h4 h4 h4" "n n n n n" "e e e e e" "text text text text text" "btn btn btn btn btn"; }
+  background-color: #42451e;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 4px; }
   .contact-form h4 {
-    grid-area: h4;
-    font-size: 30px;
-    color: #D7A35F; }
-  .contact-form .text-nombre {
-    grid-area: n;
-    font-size: 25px; }
-  .contact-form .text-email {
-    grid-area: e;
-    font-size: 25px; }
-  .contact-form .text-text {
-    grid-area: text;
-    font-size: 30.2px; }
-  .contact-form .btn-submit {
-    grid-area: btn;
-    font-size: 25px; }
+    color: white;
+    text-align: center; }
+  .contact-form .controls {
+    width: 100%;
+    background-color: #ffd900;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+  .contact-form .controls1 {
+    width: 100%;
+    background-color: #ffd900;
+    border-radius: 4px;
+    font-size: 30px; }
+  .contact-form .botons {
+    border: none;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #ffd900; }
 
 /*ESTILOS DE NOSOTROS*/
 p {
@@ -51,7 +52,7 @@ h1 {
     width: 9rem;
     height: 12rem; }
   .containerBox .textBox {
-    border: 1px solid black;
+    border: 2px solid black;
     width: 9rem;
     height: 12rem;
     background-color: black;
@@ -60,6 +61,74 @@ h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+  .containerBox input {
+    background-color: #ffd900; }
+  .containerBox option {
+    color: #ffd900;
+    background-color: black; }
+  .containerBox select {
+    color: #ffd900;
+    background-color: black; }
+
+.containerBoxin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .containerBoxin .boxDestacadoos {
+    text-align: center; }
+  .containerBoxin .boxDestacadoos img {
+    width: 9rem;
+    height: 12rem; }
+  .containerBoxin .textBox {
+    border: 2px solid black;
+    width: 9rem;
+    height: 12rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+  .containerBoxin input {
+    background-color: #ffd900; }
+  .containerBoxin option {
+    color: #ffd900;
+    background-color: black; }
+  .containerBoxin select {
+    color: #ffd900;
+    background-color: black; }
+
+/*MEDIA QUERY 1024*/
+@media screen and (min-width: 1024px) {
+  .containerBoxin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .containerBoxin .boxDestacadoos {
+      text-align: center; }
+    .containerBoxin .boxDestacadoos {
+      margin: 60px; }
+    .containerBoxin .boxDestacadoos img {
+      width: 9rem;
+      height: 12rem; }
+    .containerBoxin .textBox {
+      border: 2px solid black;
+      width: 9rem;
+      height: 12rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+    .containerBoxin input {
+      background-color: #ffd900; }
+    .containerBoxin option {
+      color: #ffd900;
+      background-color: black; }
+    .containerBoxin select {
+      color: #ffd900;
+      background-color: black; } }
 
 /*RESET*/
 * {

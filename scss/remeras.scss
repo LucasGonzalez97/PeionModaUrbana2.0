@@ -14,7 +14,7 @@
         height: 12rem;
     }
     .textBox{
-        border: 1px solid black;
+        border: 2px solid black;
         width: 9rem;
         height: 12rem;
         background-color: black;
@@ -23,5 +23,52 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    input{
+        background-color: rgb(255, 217, 0);
+    }
+    option{
+        color: rgb(255, 217, 0);
+        background-color: black;
+    }
+    select{
+        color: rgb(255, 217, 0);
+        background-color: black;
+    }
+}
+.containerBoxin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    .boxDestacadoos{
+        text-align: center;
+    }
+    .boxDestacadoos{
+    }
+    .boxDestacadoos img{
+        width: 9rem;
+        height: 12rem;
+    }
+    .textBox{
+        border: 2px solid black;
+        width: 9rem;
+        height: 12rem;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    input{
+        background-color: $color-secundario;
+    }
+    option{
+        color: $color-secundario;
+        background-color: black;
+    }
+    select{
+        color: $color-secundario;
+        background-color: black;
     }
 }

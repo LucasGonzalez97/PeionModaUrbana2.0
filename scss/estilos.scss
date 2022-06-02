@@ -3,9 +3,11 @@
 @import "scss/utilities";
 @import "scss/nosotros";
 @import "scss/remeras";
+@import "scss/mq1024";
+
 
 /*RESET*/
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
