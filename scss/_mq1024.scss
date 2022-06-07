@@ -1,12 +1,13 @@
 @import "base/mixin";
 
 
+
 //ESTILOS DE REMERA MEDIA QUERY 1024
 /*MEDIA QUERY 1024*/
 /*ESTILOS DE REMERAS*/
 
 @media screen and (min-width:1024px) {
-    .container-fluid{
+    .container{
         height: $medida-principal;
     }
     .containerBox{

@@ -7,7 +7,7 @@
 @import "base/mixin";
 
 /*RESET*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,84 +17,129 @@
 body {
     background-color: #212529;
 }
+
 /*ESTILOS DEL NAV*/
-.nav-link{
+.nav-link {
     margin: 10px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     border-top: $color-primario solid 1px;
     border-bottom: $color-primario solid 1px;
 }
+
 /*ESTILOS DEL MAIN*/
-.contact-ig-wpp{
+.contact-ig-wpp {
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #212529;
-    .ig{
+
+    .ig {
         width: 3rem;
     }
-    .wpp{
+
+    .wpp {
         width: 3rem;
     }
+
     .wpp:hover {
         -webkit-transform: scale(0.9);
         transform: scale(0.9rem);
     }
-    
+
     .ig:hover {
         -webkit-transform: scale(0.9);
         transform: scale(0.9rem);
     }
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background: $color-primario;
 }
 
 /*ESTILOS DEL CARROUSEL Y MAIN*/
-.container-fluid{
-    height: ( $medida-principal + 100 );
-    .carousel-caption{
+.container-fluid {
+    height: ($medida-principal + 100);
+
+    .carousel-caption {
         top: 40%;
         color: $color-secundario;
-        .textoC{
-            font-size: 1.6rem;
+
+        .textoC {
+            font-size: 1.9rem;
             font-family: 'Dancing Script', cursive;
         }
-        .parrafoC{
-            font-size: 1.3rem;
+
+        .parrafoC {
+            font-size: 1.5rem;
             color: $color-primario;
             font-family: 'Dancing Script', cursive;
         }
     }
 }
-.carousel-inner{
-    background-color: red;
-}
-.xs{
-    background-color: red;
+
+.xs {
     position: relative;
-    .h1{
-        color: white;
-        text-align: start;
+
+    .h1 {
+        color: $color-secundario;
+        text-align: center;
         position: absolute;
-        font-size: 2rem;
+        font-size: 1.2rem;
         top: 50%;
         right: 72%;
         transform: rotate(270deg);
     }
+
+    i {
+        position: absolute;
+        top: 32%;
+        left: 12%;
+        color: white;
+        font-size: 30px;
+    }
+
+    .lineaV {
+        height: 2px;
+        width: 200px;
+        background-color: $color-secundario;
+        transform: rotate(270deg);
+        position: absolute;
+        top: 48%;
+        left: 10%;
+    }
+
+    h2{
+        position: absolute;
+        top: 30%;
+        left: 42%;
+        font-size: 2.5rem;
+        color: $color-secundario;
+    }
+
+    p{
+        color: $color-primario;
+        position: absolute;
+        top: 50%;
+        left: 33%;
+        text-align: center;
+        font-size: 1.3rem;
+    }
 }
+
 /*ESTILOS DEL FOOTER*/
-footer{
+footer {
     width: 100%;
-    padding: ( $medida-principal - 180 )
-    background-color #212529;
-    h3{
+    padding: ($medida-principal - 180) background-color #212529;
+
+    h3 {
         text-align: center;
         font-size: 0.6rem;
         color: $color-primario;
     }
-    h4{
+
+    h4 {
         text-align: center;
         font-size: 0.5rem;
         color: $color-primario;

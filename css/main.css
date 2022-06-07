@@ -102,7 +102,7 @@ footer {
 /*MEDIA QUERY 1024*/
 /*ESTILOS DE REMERAS*/
 @media screen and (min-width: 1024px) {
-  .container-fluid {
+  .container {
     height: 200px; }
   .containerBox {
     display: flex;
@@ -205,27 +205,50 @@ body {
     top: 40%;
     color: #ffd900; }
     .container-fluid .carousel-caption .textoC {
-      font-size: 1.6rem;
+      font-size: 1.9rem;
       font-family: 'Dancing Script', cursive; }
     .container-fluid .carousel-caption .parrafoC {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       color: #D7A35F;
       font-family: 'Dancing Script', cursive; }
 
-.carousel-inner {
-  background-color: red; }
-
 .xs {
-  background-color: red;
   position: relative; }
   .xs .h1 {
-    color: white;
-    text-align: start;
+    color: #ffd900;
+    text-align: center;
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.2rem;
     top: 50%;
     right: 72%;
     transform: rotate(270deg); }
+  .xs i {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    color: white;
+    font-size: 30px; }
+  .xs .lineaV {
+    height: 2px;
+    width: 200px;
+    background-color: #ffd900;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 48%;
+    left: 10%; }
+  .xs h2 {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    font-size: 2.5rem;
+    color: #ffd900; }
+  .xs p {
+    color: #D7A35F;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    text-align: center;
+    font-size: 1.3rem; }
 
 /*ESTILOS DEL FOOTER*/
 footer {
