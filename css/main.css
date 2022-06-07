@@ -172,7 +172,7 @@ body {
 
 /*ESTILOS DEL NAV*/
 .nav-link {
-  margin: 40px; }
+  margin: 10px; }
 
 .nav-link:hover {
   border-top: #D7A35F solid 1px;
