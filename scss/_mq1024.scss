@@ -7,19 +7,23 @@
 /*ESTILOS DE REMERAS*/
 
 @media screen and (min-width:1024px) {
-    .container{
+    .container {
         height: $medida-principal;
     }
-    .containerBox{
+
+    .containerBox {
         @include flexbox;
-        .boxDestacados{
+
+        .boxDestacados {
             text-align: center;
         }
-        .boxDestacados img{
+
+        .boxDestacados img {
             width: 15rem;
             height: 12rem;
         }
-        .textBox{
+
+        .textBox {
             border: 2px solid black;
             width: 15rem;
             height: 12rem;
@@ -30,31 +34,38 @@
             justify-content: center;
             text-align: center;
         }
-        input{
+
+        input {
             background-color: rgb(255, 217, 0);
         }
-        option{
+
+        option {
             color: rgb(255, 217, 0);
             background-color: black;
         }
-        select{
+
+        select {
             color: rgb(255, 217, 0);
             background-color: black;
         }
     }
-    .containerBoxin{
+
+    .containerBoxin {
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
-        .boxDestacadoos{
+        justify-content: center;
+
+        .boxDestacadoos {
             text-align: center;
             margin: 60px;
         }
-        .boxDestacadoos img{
+
+        .boxDestacadoos img {
             width: 15rem;
             height: 12rem;
         }
-        .textBox{
+
+        .textBox {
             border: 2px solid black;
             width: 15rem;
             height: 12rem;
@@ -65,14 +76,17 @@
             justify-content: center;
             text-align: center;
         }
-        input{
+
+        input {
             background-color: $color-secundario;
         }
-        option{
+
+        option {
             color: $color-secundario;
             background-color: black;
         }
-        select{
+
+        select {
             color: $color-secundario;
             background-color: black;
         }

@@ -80,49 +80,63 @@ body {
 }
 
 .xs {
-    position: relative;
+    .lineaH1 {
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-left: #ffd900 3px solid;
 
-    .h1 {
-        color: $color-secundario;
+        .h1 {
+            color: $color-secundario;
+            text-align: center;
+            // position: absolute;
+            font-size: 1.2rem;
+            // transform: rotate(270deg);
+        }
+    }
+
+
+    .lineaH2 {
         text-align: center;
-        position: absolute;
-        font-size: 1.2rem;
-        top: 50%;
-        right: 72%;
-        transform: rotate(270deg);
+        margin: auto;
+
+        &:after {
+            content: "lukitas";
+        }
     }
 
     i {
-        position: absolute;
-        top: 32%;
-        left: 12%;
+        // position: absolute;
+        // top: 32%;
+        // left: 12%;
         color: white;
         font-size: 30px;
     }
 
-    .lineaV {
-        height: 2px;
-        width: 200px;
-        background-color: $color-secundario;
-        transform: rotate(270deg);
-        position: absolute;
-        top: 48%;
-        left: 10%;
-    }
+    // .lineaV {
+    //     height: 2px;
+    //     width: 200px;
+    //     background-color: $color-secundario;
+    //     transform: rotate(270deg);
+    //     // position: absolute;
+    //     top: 48%;
+    //     left: 10%;
+    // }
 
-    h2{
-        position: absolute;
-        top: 30%;
-        left: 42%;
-        font-size: 2.5rem;
+    h2 {
+        // position: absolute;
+        font-size: 2.4rem;
         color: $color-secundario;
     }
 
-    p{
+    p {
         color: $color-primario;
-        position: absolute;
-        top: 50%;
-        left: 33%;
+        // position: absolute;
         text-align: center;
         font-size: 1.3rem;
     }
