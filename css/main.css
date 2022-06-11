@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*ESTILOS DE CONTACTO*/
 .mapa {
   display: flex;
@@ -200,56 +201,63 @@ body {
 
 /*ESTILOS DEL CARROUSEL Y MAIN*/
 .container-fluid {
-  height: 300px; }
+  height: 350px; }
   .container-fluid .carousel-caption {
-    top: 40%;
+    margin: auto;
     color: #ffd900; }
     .container-fluid .carousel-caption .textoC {
-      font-size: 1.9rem;
+      font-size: 1.2rem;
       font-family: 'Dancing Script', cursive; }
     .container-fluid .carousel-caption .parrafoC {
-      font-size: 1.5rem;
+      font-size: 1rem;
       color: #D7A35F;
       font-family: 'Dancing Script', cursive; }
 
-.xs .lineaH1 {
+.lineas .lineaH1 {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
   white-space: nowrap;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-left: #ffd900 3px solid; }
-  .xs .lineaH1 .h1 {
+  border-bottom: #ffd900 3px solid; }
+  .lineas .lineaH1 .h1 {
     color: #ffd900;
     text-align: center;
     font-size: 1.2rem; }
 
-.xs .lineaH2 {
+.lineas .lineaH2 {
   text-align: center;
   margin: auto; }
-  .xs .lineaH2:after {
+  .lineas .lineaH2:after {
     content: "lukitas"; }
 
-.xs i {
+.lineas i {
   color: white;
   font-size: 30px; }
 
-.xs h2 {
+.lineas h2 {
   font-size: 2.4rem;
   color: #ffd900; }
 
-.xs p {
+.lineas p {
   color: #D7A35F;
   text-align: center;
   font-size: 1.3rem; }
 
+.otoñoInvierno {
+  padding-top: 10%;
+  color: #ffd900;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .otoñoInvierno .boxIndex img {
+    margin: 5px;
+    width: 150px;
+    border-radius: 50px; }
+
 /*ESTILOS DEL FOOTER*/
 footer {
-  width: 100%;
-  padding: 20px background-color #212529; }
+  margin: 10px; }
   footer h3 {
     text-align: center;
     font-size: 0.6rem;
@@ -258,3 +266,99 @@ footer {
     text-align: center;
     font-size: 0.5rem;
     color: #D7A35F; }
+
+@media screen and (min-width: 576px) {
+  .container-fluid {
+    height: 236px; }
+    .container-fluid .carousel-caption {
+      margin: auto;
+      color: #ffd900; }
+      .container-fluid .carousel-caption .textoC {
+        font-size: 1.8rem;
+        font-family: 'Dancing Script', cursive; }
+      .container-fluid .carousel-caption .parrafoC {
+        font-size: 1.2rem;
+        color: #D7A35F;
+        font-family: 'Dancing Script', cursive; }
+  .lineas .lineaH1 {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-left: #ffd900 3px solid;
+    border-bottom: none; }
+    .lineas .lineaH1 .h1 {
+      color: #ffd900;
+      text-align: center;
+      font-size: 1rem; }
+  .lineas .lineaH2 {
+    text-align: center;
+    margin: auto; }
+    .lineas .lineaH2:after {
+      content: "lukitas"; }
+  .lineas i {
+    color: white;
+    font-size: 25px; }
+  .lineas h2 {
+    font-size: 2rem;
+    color: #ffd900; }
+  .lineas p {
+    color: #D7A35F;
+    text-align: center;
+    font-size: 1rem; }
+  .otoñoInvierno {
+    padding-top: 20%; }
+    .otoñoInvierno .boxIndex img {
+      width: 180px;
+      border-radius: 100px; } }
+
+@media screen and (min-width: 769px) {
+  .container-fluid {
+    height: 233px; }
+    .container-fluid .carousel-caption {
+      margin: auto;
+      color: #ffd900; }
+      .container-fluid .carousel-caption .textoC {
+        font-size: 1.8rem;
+        font-family: 'Dancing Script', cursive; }
+      .container-fluid .carousel-caption .parrafoC {
+        font-size: 1.2rem;
+        color: #D7A35F;
+        font-family: 'Dancing Script', cursive; }
+  .lineas .lineaH1 {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-left: #ffd900 3px solid;
+    border-bottom: none; }
+    .lineas .lineaH1 .h1 {
+      color: #ffd900;
+      text-align: center;
+      font-size: 1.2rem; }
+  .lineas .lineaH2 {
+    text-align: center;
+    margin: auto; }
+    .lineas .lineaH2:after {
+      content: "lukitas"; }
+  .lineas i {
+    color: white;
+    font-size: 30px; }
+  .lineas h2 {
+    font-size: 2.4rem;
+    color: #ffd900; }
+  .lineas p {
+    color: #D7A35F;
+    text-align: center;
+    font-size: 1.3rem; }
+  .otoñoInvierno .boxIndex img {
+    width: 180px;
+    border-radius: 100px; } }

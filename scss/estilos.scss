@@ -60,36 +60,32 @@ body {
 
 /*ESTILOS DEL CARROUSEL Y MAIN*/
 .container-fluid {
-    height: ($medida-principal + 100);
+    height: ($medida-principal + 150);
 
     .carousel-caption {
-        top: 40%;
+        margin: auto;
         color: $color-secundario;
 
         .textoC {
-            font-size: 1.9rem;
+            font-size: 1.2rem;
             font-family: 'Dancing Script', cursive;
         }
 
         .parrafoC {
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: $color-primario;
             font-family: 'Dancing Script', cursive;
         }
     }
 }
 
-.xs {
+.lineas {
     .lineaH1 {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: center;
         white-space: nowrap;
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-        padding-left: 40px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        border-left: #ffd900 3px solid;
+        border-bottom: #ffd900 3px solid;
 
         .h1 {
             color: $color-secundario;
@@ -141,12 +137,25 @@ body {
         font-size: 1.3rem;
     }
 }
+.otoñoInvierno{
+    padding-top: 10%;
+    color: $color-secundario;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .boxIndex{
+        img{
+            margin: 5px;
+            width: 150px;
+            border-radius: 50px;
+        }
+    }
+}
 
 /*ESTILOS DEL FOOTER*/
 footer {
-    width: 100%;
-    padding: ($medida-principal - 180) background-color #212529;
-
+    margin: 10px;
     h3 {
         text-align: center;
         font-size: 0.6rem;
@@ -157,5 +166,160 @@ footer {
         text-align: center;
         font-size: 0.5rem;
         color: $color-primario;
+    }
+}
+
+
+@media screen and (min-width:576px) {
+    .container-fluid {
+        height: ($medida-principal + 36);
+    
+        .carousel-caption {
+            margin: auto;
+            color: $color-secundario;
+    
+            .textoC {
+                font-size: 1.8rem;
+                font-family: 'Dancing Script', cursive;
+            }
+    
+            .parrafoC {
+                font-size: 1.2rem;
+                color: $color-primario;
+                font-family: 'Dancing Script', cursive;
+            }
+        }
+    }
+
+    .lineas {
+        .lineaH1 {
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            padding-left: 0px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-left: #ffd900 3px solid;
+            border-bottom: none;
+            .h1 {
+                color: $color-secundario;
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+    
+    
+        .lineaH2 {
+            text-align: center;
+            margin: auto;
+    
+            &:after {
+                content: "lukitas";
+            }
+        }
+    
+        i {
+            color: white;
+            font-size: 25px;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            color: $color-secundario;
+        }
+    
+        p {
+            color: $color-primario;
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+    .otoñoInvierno{
+        padding-top: 20%;
+        .boxIndex{
+            img{
+                width: 180px;
+                border-radius: 100px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    .container-fluid {
+        height: ($medida-principal + 33) ;
+    
+        .carousel-caption {
+            margin: auto;
+            color: $color-secundario;
+    
+            .textoC {
+                font-size: 1.8rem;
+                font-family: 'Dancing Script', cursive;
+            }
+    
+            .parrafoC {
+                font-size: 1.2rem;
+                color: $color-primario;
+                font-family: 'Dancing Script', cursive;
+            }
+        }
+    }
+
+    .lineas {
+        .lineaH1 {
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-left: #ffd900 3px solid;
+            border-bottom: none;
+            .h1 {
+                color: $color-secundario;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+        }
+    
+    
+        .lineaH2 {
+            text-align: center;
+            margin: auto;
+    
+            &:after {
+                content: "lukitas";
+            }
+        }
+    
+        i {
+            color: white;
+            font-size: 30px;
+        }
+    
+        h2 {
+            font-size: 2.4rem;
+            color: $color-secundario;
+        }
+    
+        p {
+            color: $color-primario;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+    }
+    .otoñoInvierno{
+        .boxIndex{
+            img{
+                width: 180px;
+                border-radius: 100px;
+            }
+        }
     }
 }
