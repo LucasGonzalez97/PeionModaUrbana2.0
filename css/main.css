@@ -200,20 +200,19 @@ body {
   background: #D7A35F; }
 
 /*ESTILOS DEL CARROUSEL Y MAIN*/
-.container-fluid {
-  height: 350px; }
-  .container-fluid .carousel-caption {
-    margin: auto;
-    color: #ffd900; }
-    .container-fluid .carousel-caption .textoC {
-      font-size: 1.2rem;
-      font-family: 'Dancing Script', cursive; }
-    .container-fluid .carousel-caption .parrafoC {
-      font-size: 1rem;
-      color: #D7A35F;
-      font-family: 'Dancing Script', cursive; }
+.container-fluid .carousel-caption {
+  margin: auto;
+  color: #ffd900; }
+  .container-fluid .carousel-caption .textoC {
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive; }
+  .container-fluid .carousel-caption .parrafoC {
+    font-size: 1rem;
+    color: #D7A35F;
+    font-family: 'Dancing Script', cursive; }
 
 .lineas .lineaH1 {
+  margin-top: 50px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -244,8 +243,6 @@ body {
   font-size: 1.3rem; }
 
 .otoñoInvierno {
-  padding-top: 10%;
-  color: #ffd900;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -254,6 +251,11 @@ body {
     margin: 5px;
     width: 150px;
     border-radius: 50px; }
+
+.textOtoñoInvierno {
+  color: white;
+  text-align: center;
+  margin-top: 15px; }
 
 /*ESTILOS DEL FOOTER*/
 footer {
@@ -268,18 +270,16 @@ footer {
     color: #D7A35F; }
 
 @media screen and (min-width: 576px) {
-  .container-fluid {
-    height: 236px; }
-    .container-fluid .carousel-caption {
-      margin: auto;
-      color: #ffd900; }
-      .container-fluid .carousel-caption .textoC {
-        font-size: 1.8rem;
-        font-family: 'Dancing Script', cursive; }
-      .container-fluid .carousel-caption .parrafoC {
-        font-size: 1.2rem;
-        color: #D7A35F;
-        font-family: 'Dancing Script', cursive; }
+  .container-fluid .carousel-caption {
+    margin: auto;
+    color: #ffd900; }
+    .container-fluid .carousel-caption .textoC {
+      font-size: 1.8rem;
+      font-family: 'Dancing Script', cursive; }
+    .container-fluid .carousel-caption .parrafoC {
+      font-size: 1.2rem;
+      color: #D7A35F;
+      font-family: 'Dancing Script', cursive; }
   .lineas .lineaH1 {
     display: flex;
     flex-wrap: nowrap;
@@ -310,25 +310,25 @@ footer {
     color: #D7A35F;
     text-align: center;
     font-size: 1rem; }
-  .otoñoInvierno {
-    padding-top: 20%; }
-    .otoñoInvierno .boxIndex img {
-      width: 180px;
-      border-radius: 100px; } }
+  .otoñoInvierno .boxIndex img {
+    width: 150px;
+    border-radius: 100px; }
+  .textOtoñoInvierno {
+    color: white;
+    text-align: center;
+    margin-top: 15px; } }
 
 @media screen and (min-width: 769px) {
-  .container-fluid {
-    height: 233px; }
-    .container-fluid .carousel-caption {
-      margin: auto;
-      color: #ffd900; }
-      .container-fluid .carousel-caption .textoC {
-        font-size: 1.8rem;
-        font-family: 'Dancing Script', cursive; }
-      .container-fluid .carousel-caption .parrafoC {
-        font-size: 1.2rem;
-        color: #D7A35F;
-        font-family: 'Dancing Script', cursive; }
+  .container-fluid .carousel-caption {
+    margin: auto;
+    color: #ffd900; }
+    .container-fluid .carousel-caption .textoC {
+      font-size: 1.8rem;
+      font-family: 'Dancing Script', cursive; }
+    .container-fluid .carousel-caption .parrafoC {
+      font-size: 1.2rem;
+      color: #D7A35F;
+      font-family: 'Dancing Script', cursive; }
   .lineas .lineaH1 {
     display: flex;
     flex-wrap: nowrap;
@@ -360,5 +360,9 @@ footer {
     text-align: center;
     font-size: 1.3rem; }
   .otoñoInvierno .boxIndex img {
-    width: 180px;
-    border-radius: 100px; } }
+    width: 150px;
+    border-radius: 100px; }
+  .textOtoñoInvierno {
+    color: white;
+    text-align: center;
+    margin-top: 15px; } }
