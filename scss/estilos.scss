@@ -3,7 +3,6 @@
 @import "base/variables";
 @import "nosotros";
 @import "remeras";
-@import "mq1024";
 @import "base/mixin";
 
 /*RESET*/
@@ -15,17 +14,12 @@
 
 /*ESTILOS DEL BODY*/
 body {
-    background-color: #212529;
+    background-color: black;
 }
 
 /*ESTILOS DEL NAV*/
-.nav-link {
-    margin: 10px;
-}
-
-.nav-link:hover {
-    border-top: $color-primario solid 1px;
-    border-bottom: $color-primario solid 1px;
+header{
+    
 }
 
 /*ESTILOS DEL MAIN*/
@@ -33,7 +27,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #212529;
 
     .ig {
         width: 3rem;
@@ -65,18 +58,27 @@ body {
         color: $color-secundario;
 
         .textoC {
-            font-size: 1.2rem;
-            font-family: 'Dancing Script', cursive;
+            color: black;
+            font-size: 1.5rem;
+            font-family: 'Staatliches', cursive;
+            text-shadow: 0.1em 0.1em 0.1em white;
         }
 
         .parrafoC {
-            font-size: 1rem;
-            color: $color-primario;
-            font-family: 'Dancing Script', cursive;
+            font-size: 1.2rem;
+            color: black;
+            font-family: 'Staatliches', cursive;
+            text-shadow: 0.1em 0.1em 0.1em white;
+        }
+    }
+    .imgcarru{
+        img{
+            height: 600px;
+            opacity:0.9;
+            filter:alpha(opacity=40);
         }
     }
 }
-
 .lineas {
     .lineaH1 {
         margin-top: 50px;
@@ -85,7 +87,7 @@ body {
         justify-content: center;
         white-space: nowrap;
         border-bottom: #ffd900 3px solid;
-
+        
         .h1 {
             color: $color-secundario;
             text-align: center;
@@ -94,17 +96,13 @@ body {
             // transform: rotate(270deg);
         }
     }
-
-
+    
+    
     .lineaH2 {
         text-align: center;
         margin: auto;
-
-        &:after {
-            content: "lukitas";
-        }
     }
-
+    
     i {
         // position: absolute;
         // top: 32%;
@@ -112,32 +110,36 @@ body {
         color: white;
         font-size: 30px;
     }
-
+    
     // .lineaV {
-    //     height: 2px;
-    //     width: 200px;
-    //     background-color: $color-secundario;
-    //     transform: rotate(270deg);
-    //     // position: absolute;
-    //     top: 48%;
-    //     left: 10%;
-    // }
-
-    h2 {
-        // position: absolute;
-        font-size: 2.4rem;
-        color: $color-secundario;
+        //     height: 2px;
+        //     width: 200px;
+        //     background-color: $color-secundario;
+        //     transform: rotate(270deg);
+        //     // position: absolute;
+        //     top: 48%;
+        //     left: 10%;
+        // }
+        
+        h2 {
+            // position: absolute;
+            font-size: 2.4rem;
+            color: $color-secundario;
+        }
+        
+        p {
+            color: $color-primario;
+            // position: absolute;
+            text-align: center;
+            font-size: 1.3rem;
+        }
     }
 
-    p {
-        color: $color-primario;
-        // position: absolute;
+    /* ESTILOS OTOñO-INVIERNO*/
+
+    .otoñoInvierno{
+        box-shadow: 6px 12px 20px 20px gold;
         text-align: center;
-        font-size: 1.3rem;
-    }
-}
-.otoñoInvierno{
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -145,7 +147,6 @@ body {
         img{
             margin: 5px;
             width: 150px;
-            border-radius: 50px;
         }
     }
 }
@@ -154,7 +155,59 @@ body {
     text-align: center;
     margin-top: 15px;
 }
+.containerImgRemeras{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    .boxImgRemeras{
+        img{
+            margin: 20px;
+            width: 250px;
+            height: 350px;
+            box-shadow: 5px 8px 12px $color-secundario;
+        }
+        img:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 16px 24px $color-secundario;
+        }
+    }
+    .textoRemeras{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        p{
+            font-size: 3rem;
+            color: black;
+            font-family: 'Staatliches', cursive;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
 
+/* ESTILOS PRIMAVERA VERANO*/
+
+.veranoPrimavera{
+        border: 5px solid #226F74;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .boxingIndex{
+            img{
+                width: 300px;
+                margin: 5px;
+            }
+        }
+    }
+    .textoRebajas{
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+    }
 /*ESTILOS DEL FOOTER*/
 footer {
     margin: 10px;
@@ -180,13 +233,12 @@ footer {
     
             .textoC {
                 font-size: 1.8rem;
-                font-family: 'Dancing Script', cursive;
+                font-family: 'Staatliches', cursive;
             }
     
             .parrafoC {
                 font-size: 1.2rem;
-                color: $color-primario;
-                font-family: 'Dancing Script', cursive;
+                font-family: 'Staatliches', cursive;
             }
         }
     }
@@ -240,7 +292,6 @@ footer {
         .boxIndex{
             img{
                 width: 150px;
-                border-radius: 100px;
             }
         }
     }
@@ -260,13 +311,12 @@ footer {
     
             .textoC {
                 font-size: 1.8rem;
-                font-family: 'Dancing Script', cursive;
+                font-family: 'Staatliches', cursive;
             }
     
             .parrafoC {
                 font-size: 1.2rem;
-                color: $color-primario;
-                font-family: 'Dancing Script', cursive;
+                font-family: 'Staatliches', cursive;
             }
         }
     }
@@ -317,10 +367,12 @@ footer {
         }
     }
     .otoñoInvierno{
+        border: 5px solid gold;
         .boxIndex{
+            margin-top: 20px;
             img{
-                width: 150px;
-                border-radius: 100px;
+                width: 180px;
+                margin: 30px;
             }
         }
     }
@@ -328,5 +380,35 @@ footer {
         color: white;
         text-align: center;
         margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container-fluid {
+        .carousel-caption {
+            margin: auto;
+            color: $color-secundario;
+    
+            .textoC {
+                color: black;
+                font-size: 1.5rem;
+                font-family: 'Staatliches', cursive;
+                text-shadow: 0.1em 0.1em 0.1em white;
+            }
+    
+            .parrafoC {
+                font-size: 1.2rem;
+                color: black;
+                font-family: 'Staatliches', cursive;
+                text-shadow: 0.1em 0.1em 0.1em white;
+            }
+        }
+        .imgcarru{
+            img{
+                height: 600px;
+                opacity:0.9;
+                filter:alpha(opacity=40);
+            }
+        }
     }
 }

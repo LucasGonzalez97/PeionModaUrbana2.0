@@ -57,7 +57,7 @@ footer {
     border: 2px solid black;
     width: 9rem;
     height: 12rem;
-    background-color: black;
+    background-color: rosybrown;
     color: white;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ footer {
     border: 2px solid black;
     width: 9rem;
     height: 12rem;
-    background-color: black;
+    background-color: rosybrown;
     color: white;
     display: flex;
     flex-direction: column;
@@ -100,8 +100,6 @@ footer {
     color: #ffd900;
     background-color: black; }
 
-/*MEDIA QUERY 1024*/
-/*ESTILOS DE REMERAS*/
 @media screen and (min-width: 1024px) {
   .container {
     height: 200px; }
@@ -118,7 +116,7 @@ footer {
       border: 2px solid black;
       width: 15rem;
       height: 12rem;
-      background-color: black;
+      background-color: rosybrown;
       color: white;
       display: flex;
       flex-direction: column;
@@ -146,7 +144,7 @@ footer {
       border: 2px solid black;
       width: 15rem;
       height: 12rem;
-      background-color: black;
+      background-color: rosybrown;
       color: white;
       display: flex;
       flex-direction: column;
@@ -169,22 +167,14 @@ footer {
 
 /*ESTILOS DEL BODY*/
 body {
-  background-color: #212529; }
+  background-color: black; }
 
 /*ESTILOS DEL NAV*/
-.nav-link {
-  margin: 10px; }
-
-.nav-link:hover {
-  border-top: #D7A35F solid 1px;
-  border-bottom: #D7A35F solid 1px; }
-
 /*ESTILOS DEL MAIN*/
 .contact-ig-wpp {
   width: 100%;
   display: flex;
-  justify-content: center;
-  background-color: #212529; }
+  justify-content: center; }
   .contact-ig-wpp .ig {
     width: 3rem; }
   .contact-ig-wpp .wpp {
@@ -204,12 +194,20 @@ body {
   margin: auto;
   color: #ffd900; }
   .container-fluid .carousel-caption .textoC {
-    font-size: 1.2rem;
-    font-family: 'Dancing Script', cursive; }
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 0.1em 0.1em 0.1em white; }
   .container-fluid .carousel-caption .parrafoC {
-    font-size: 1rem;
-    color: #D7A35F;
-    font-family: 'Dancing Script', cursive; }
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 0.1em 0.1em 0.1em white; }
+
+.container-fluid .imgcarru img {
+  height: 600px;
+  opacity: 0.9;
+  filter: alpha(opacity=40); }
 
 .lineas .lineaH1 {
   margin-top: 50px;
@@ -226,8 +224,6 @@ body {
 .lineas .lineaH2 {
   text-align: center;
   margin: auto; }
-  .lineas .lineaH2:after {
-    content: "lukitas"; }
 
 .lineas i {
   color: white;
@@ -242,17 +238,59 @@ body {
   text-align: center;
   font-size: 1.3rem; }
 
+/* ESTILOS OTOñO-INVIERNO*/
 .otoñoInvierno {
+  box-shadow: 6px 12px 20px 20px gold;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
   .otoñoInvierno .boxIndex img {
     margin: 5px;
-    width: 150px;
-    border-radius: 50px; }
+    width: 150px; }
 
 .textOtoñoInvierno {
+  color: white;
+  text-align: center;
+  margin-top: 15px; }
+
+.containerImgRemeras {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative; }
+  .containerImgRemeras .boxImgRemeras img {
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 5px 8px 12px #ffd900; }
+  .containerImgRemeras .boxImgRemeras img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 16px 24px #ffd900; }
+  .containerImgRemeras .textoRemeras {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .containerImgRemeras .textoRemeras p {
+      font-size: 3rem;
+      color: black;
+      font-family: 'Staatliches', cursive; }
+      .containerImgRemeras .textoRemeras p a {
+        text-decoration: none; }
+
+/* ESTILOS PRIMAVERA VERANO*/
+.veranoPrimavera {
+  border: 5px solid #226F74;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .veranoPrimavera .boxingIndex img {
+    width: 300px;
+    margin: 5px; }
+
+.textoRebajas {
   color: white;
   text-align: center;
   margin-top: 15px; }
@@ -275,11 +313,10 @@ footer {
     color: #ffd900; }
     .container-fluid .carousel-caption .textoC {
       font-size: 1.8rem;
-      font-family: 'Dancing Script', cursive; }
+      font-family: 'Staatliches', cursive; }
     .container-fluid .carousel-caption .parrafoC {
       font-size: 1.2rem;
-      color: #D7A35F;
-      font-family: 'Dancing Script', cursive; }
+      font-family: 'Staatliches', cursive; }
   .lineas .lineaH1 {
     display: flex;
     flex-wrap: nowrap;
@@ -311,8 +348,7 @@ footer {
     text-align: center;
     font-size: 1rem; }
   .otoñoInvierno .boxIndex img {
-    width: 150px;
-    border-radius: 100px; }
+    width: 150px; }
   .textOtoñoInvierno {
     color: white;
     text-align: center;
@@ -324,11 +360,10 @@ footer {
     color: #ffd900; }
     .container-fluid .carousel-caption .textoC {
       font-size: 1.8rem;
-      font-family: 'Dancing Script', cursive; }
+      font-family: 'Staatliches', cursive; }
     .container-fluid .carousel-caption .parrafoC {
       font-size: 1.2rem;
-      color: #D7A35F;
-      font-family: 'Dancing Script', cursive; }
+      font-family: 'Staatliches', cursive; }
   .lineas .lineaH1 {
     display: flex;
     flex-wrap: nowrap;
@@ -359,10 +394,33 @@ footer {
     color: #D7A35F;
     text-align: center;
     font-size: 1.3rem; }
-  .otoñoInvierno .boxIndex img {
-    width: 150px;
-    border-radius: 100px; }
+  .otoñoInvierno {
+    border: 5px solid gold; }
+    .otoñoInvierno .boxIndex {
+      margin-top: 20px; }
+      .otoñoInvierno .boxIndex img {
+        width: 180px;
+        margin: 30px; }
   .textOtoñoInvierno {
     color: white;
     text-align: center;
     margin-top: 15px; } }
+
+@media screen and (min-width: 1024px) {
+  .container-fluid .carousel-caption {
+    margin: auto;
+    color: #ffd900; }
+    .container-fluid .carousel-caption .textoC {
+      color: black;
+      font-size: 1.5rem;
+      font-family: 'Staatliches', cursive;
+      text-shadow: 0.1em 0.1em 0.1em white; }
+    .container-fluid .carousel-caption .parrafoC {
+      font-size: 1.2rem;
+      color: black;
+      font-family: 'Staatliches', cursive;
+      text-shadow: 0.1em 0.1em 0.1em white; }
+  .container-fluid .imgcarru img {
+    height: 600px;
+    opacity: 0.9;
+    filter: alpha(opacity=40); } }
