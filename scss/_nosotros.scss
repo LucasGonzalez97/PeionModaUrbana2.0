@@ -3,15 +3,58 @@
 
 /*ESTILOS DE NOSOTROS*/
 
-p{
-    color: whitesmoke;
-    text-align: center;
+.contenedorNosotros {
+    display: flex;
+
+    .boxNosotros {
+        img {
+            border-width: 0.8em;
+            border-style: solid none solid solid;
+            border-color: $color-secundario;
+            width: 700px;
+            height: 700px;
+        }
+    }
+
+    .textoNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p {
+        display: flex;
+        color: whitesmoke;
+        font-size: 2rem;
+    }
+
+    h1 {
+        color: $color-primario;
+        text-align: center;
+        font-size: 3rem;
+    }
 }
-h1{
-    margin-top: ($medida-principal - 100);
-    color: $color-primario;
-    text-align: center;
-}
-footer{
-    margin-top: 260px;
+
+footer {
+    margin: 10px;
+
+    .logoIgFooter {
+        font-size: 3rem;
+    }
+
+    .logoWppFooter {
+        font-size: 3rem;
+    }
+
+    h3 {
+        text-align: end;
+        font-size: 0.6rem;
+        color: $color-primario;
+    }
+
+    h4 {
+        text-align: end;
+        font-size: 0.5rem;
+        color: $color-primario;
+    }
 }

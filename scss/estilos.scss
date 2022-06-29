@@ -73,9 +73,9 @@ header{
     }
     .imgcarru{
         img{
-            height: 600px;
-            opacity:0.9;
-            filter:alpha(opacity=40);
+            height: 800px;
+            // opacity:0.9;
+            // filter:alpha(opacity=40);
         }
     }
 }
@@ -135,9 +135,9 @@ header{
         }
     }
 
-    /* ESTILOS OTOñO-INVIERNO*/
+    /* ESTILOS NEW-IN*/
 
-    .otoñoInvierno{
+    .newIn{
         box-shadow: 6px 12px 20px 20px gold;
         text-align: center;
     display: flex;
@@ -161,6 +161,7 @@ header{
     flex-wrap: wrap;
     position: relative;
     .boxImgRemeras{
+        margin-top: 2rem;
         img{
             margin: 20px;
             width: 250px;
@@ -178,9 +179,10 @@ header{
         left: 50%;
         transform: translate(-50%, -50%);
         p{
-            font-size: 3rem;
+            font-size: 2rem;
             color: black;
             font-family: 'Staatliches', cursive;
+            text-shadow: 2px 4px 6px gold;
             a{
                 text-decoration: none;
             }
@@ -188,37 +190,43 @@ header{
     }
 }
 
-/* ESTILOS PRIMAVERA VERANO*/
+// /* ESTILOS PRIMAVERA VERANO*/
 
-.veranoPrimavera{
-        border: 5px solid #226F74;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        .boxingIndex{
-            img{
-                width: 300px;
-                margin: 5px;
-            }
-        }
-    }
-    .textoRebajas{
-        color: white;
-        text-align: center;
-        margin-top: 15px;
-    }
+// .veranoPrimavera{
+//         border: 5px solid #226F74;
+//         text-align: center;
+//         display: flex;
+//         justify-content: center;
+//         flex-wrap: wrap;
+//         .boxingIndex{
+//             img{
+//                 width: 300px;
+//                 margin: 5px;
+//             }
+//         }
+//     }
+//     .textoRebajas{
+//         color: white;
+//         text-align: center;
+//         margin-top: 15px;
+//     }
 /*ESTILOS DEL FOOTER*/
 footer {
     margin: 10px;
+    .logoIgFooter{
+        font-size: 3rem;
+    }
+    .logoWppFooter{
+        font-size: 3rem;
+    }
     h3 {
-        text-align: center;
+        text-align: end;
         font-size: 0.6rem;
         color: $color-primario;
     }
 
     h4 {
-        text-align: center;
+        text-align: end;
         font-size: 0.5rem;
         color: $color-primario;
     }
@@ -266,10 +274,6 @@ footer {
         .lineaH2 {
             text-align: center;
             margin: auto;
-    
-            &:after {
-                content: "lukitas";
-            }
         }
     
         i {
@@ -344,10 +348,6 @@ footer {
         .lineaH2 {
             text-align: center;
             margin: auto;
-    
-            &:after {
-                content: "lukitas";
-            }
         }
     
         i {
@@ -405,7 +405,7 @@ footer {
         }
         .imgcarru{
             img{
-                height: 600px;
+                height: 750px;
                 opacity:0.9;
                 filter:alpha(opacity=40);
             }
