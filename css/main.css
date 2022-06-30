@@ -217,21 +217,6 @@ body {
 
 /*ESTILOS DEL NAV*/
 /*ESTILOS DEL MAIN*/
-.contact-ig-wpp {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  .contact-ig-wpp .ig {
-    width: 3rem; }
-  .contact-ig-wpp .wpp {
-    width: 3rem; }
-  .contact-ig-wpp .wpp:hover {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9rem); }
-  .contact-ig-wpp .ig:hover {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9rem); }
-
 .navbar-toggler {
   background: #D7A35F; }
 
@@ -264,6 +249,11 @@ body {
     color: #ffd900;
     text-align: center;
     font-size: 1.2rem; }
+  .lineas .lineaH1 .igPeion {
+    color: #D7A35F; }
+  .lineas .lineaH1 .igPeion:hover {
+    transform: scale(1.1);
+    color: #ffd900; }
 
 .lineas .lineaH2 {
   text-align: center;
@@ -291,13 +281,17 @@ body {
   justify-content: center; }
   .newIn .boxIndex img {
     margin: 5px;
+    padding: 10px 10px 0px 10px;
     width: 150px; }
+  .newIn .boxIndex .textBoxing {
+    color: #D7A35F; }
 
-.textOtoñoInvierno {
+.textonewIn {
   color: white;
   text-align: center;
-  margin-top: 15px; }
+  padding-top: 20px; }
 
+/* IMAGENES DE PRODUCTOS */
 .containerImgRemeras {
   display: flex;
   justify-content: space-evenly;
@@ -327,6 +321,10 @@ body {
         text-decoration: none; }
 
 /*ESTILOS DEL FOOTER*/
+.contact-ig-wpp {
+  display: flex;
+  justify-content: center; }
+
 footer {
   margin: 10px; }
   footer .logoIgFooter {

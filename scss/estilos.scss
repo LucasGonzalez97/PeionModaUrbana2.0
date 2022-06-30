@@ -23,29 +23,6 @@ header{
 }
 
 /*ESTILOS DEL MAIN*/
-.contact-ig-wpp {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    .ig {
-        width: 3rem;
-    }
-
-    .wpp {
-        width: 3rem;
-    }
-
-    .wpp:hover {
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9rem);
-    }
-
-    .ig:hover {
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9rem);
-    }
-}
 
 .navbar-toggler {
     background: $color-primario;
@@ -94,6 +71,13 @@ header{
             // position: absolute;
             font-size: 1.2rem;
             // transform: rotate(270deg);
+        }
+        .igPeion{
+            color: $color-primario;
+        }
+        .igPeion:hover{
+            transform: scale(1.1);
+            color: $color-secundario;
         }
     }
     
@@ -146,15 +130,21 @@ header{
     .boxIndex{
         img{
             margin: 5px;
+            padding: 10px 10px 0px 10px;
             width: 150px;
+        }
+        .textBoxing{
+            color: $color-primario;
         }
     }
 }
-.textOtoñoInvierno{
+.textonewIn{
     color: white;
     text-align: center;
-    margin-top: 15px;
+    padding-top: 20px;
 }
+
+/* IMAGENES DE PRODUCTOS */
 .containerImgRemeras{
     display: flex;
     justify-content: space-evenly;
@@ -210,7 +200,15 @@ header{
 //         text-align: center;
 //         margin-top: 15px;
 //     }
+
+
 /*ESTILOS DEL FOOTER*/
+
+.contact-ig-wpp {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     margin: 10px;
     .logoIgFooter{
