@@ -215,9 +215,19 @@ footer {
     margin: 10px;
     .logoIgFooter{
         font-size: 3rem;
+        color: $color-secundario;
+        padding-top: 60px;
     }
     .logoWppFooter{
         font-size: 3rem;
+        color: $color-secundario;
+        padding-top: 60px;
+    }
+    .logoWppFooter:hover{
+        color: white;
+    }
+    .logoIgFooter:hover{
+        color: white;
     }
     h3 {
         text-align: end;

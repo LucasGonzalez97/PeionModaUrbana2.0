@@ -48,11 +48,7 @@
 .contenedorNosotros {
   display: flex; }
   .contenedorNosotros .boxNosotros img {
-    border-width: 0.8em;
-    border-style: solid none solid solid;
-    border-color: #ffd900;
-    width: 700px;
-    height: 700px; }
+    display: none; }
   .contenedorNosotros .textoNosotros {
     display: flex;
     flex-direction: column;
@@ -60,7 +56,8 @@
   .contenedorNosotros p {
     display: flex;
     color: whitesmoke;
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-align: center; }
   .contenedorNosotros h1 {
     color: #D7A35F;
     text-align: center;
@@ -80,6 +77,17 @@ footer {
     text-align: end;
     font-size: 0.5rem;
     color: #D7A35F; }
+
+@media screen and (min-width: 1000px) {
+  .contenedorNosotros {
+    display: flex; }
+    .contenedorNosotros .boxNosotros img {
+      border-width: 0.8em;
+      border-style: solid none solid solid;
+      border-color: #ffd900;
+      width: 700px;
+      height: 700px;
+      display: block; } }
 
 /*ESTILOS DE REMERAS*/
 .containerBox {
@@ -322,9 +330,17 @@ body {
 footer {
   margin: 10px; }
   footer .logoIgFooter {
-    font-size: 3rem; }
+    font-size: 3rem;
+    color: #ffd900;
+    padding-top: 60px; }
   footer .logoWppFooter {
-    font-size: 3rem; }
+    font-size: 3rem;
+    color: #ffd900;
+    padding-top: 60px; }
+  footer .logoWppFooter:hover {
+    color: white; }
+  footer .logoIgFooter:hover {
+    color: white; }
   footer h3 {
     text-align: end;
     font-size: 0.6rem;

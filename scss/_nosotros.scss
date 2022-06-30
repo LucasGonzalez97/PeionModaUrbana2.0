@@ -8,11 +8,7 @@
 
     .boxNosotros {
         img {
-            border-width: 0.8em;
-            border-style: solid none solid solid;
-            border-color: $color-secundario;
-            width: 700px;
-            height: 700px;
+            display: none;
         }
     }
 
@@ -26,6 +22,7 @@
         display: flex;
         color: whitesmoke;
         font-size: 2rem;
+        text-align: center;
     }
 
     h1 {
@@ -57,4 +54,21 @@ footer {
         font-size: 0.5rem;
         color: $color-primario;
     }
+}
+
+@media screen and (min-width:1000px) {
+    .contenedorNosotros {
+        display: flex;
+    
+        .boxNosotros {
+            img {
+                border-width: 0.8em;
+                border-style: solid none solid solid;
+                border-color: $color-secundario;
+                width: 700px;
+                height: 700px;
+                display: block;
+            }
+        }
+}
 }
